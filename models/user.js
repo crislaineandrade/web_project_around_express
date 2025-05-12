@@ -23,5 +23,13 @@ const userSchema = new mongoose.Schema({
       message: (props) => `${props.value} não é uma mensagem válida`,
     },
   },
+
+  email: {
+
+  },
+
+  password: {
+    
+  }
 });
 module.exports = mongoose.model('user', userSchema);
